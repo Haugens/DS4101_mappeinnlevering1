@@ -47,3 +47,7 @@ const profilesJSON = [{
             "description": "",
             "gender": "Female"
         }];
+
+        function showAll(){
+            return profilesJSON
+        }

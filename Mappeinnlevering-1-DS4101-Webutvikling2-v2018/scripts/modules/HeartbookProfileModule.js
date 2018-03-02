@@ -1,7 +1,7 @@
 const profilesJSON = [{
             "firstName": "Arne",
             "age": "32",
-            "imageSrc": "",
+            "imageSrc": "arne.jpg",
             "description": "",
             "gender": "Male"
         }, {

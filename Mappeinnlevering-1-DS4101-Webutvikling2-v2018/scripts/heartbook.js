@@ -6,10 +6,12 @@ $(function(){
     let profileGender = $("<p>");
     let profileInterests = $("<p>");
 
+    let allProfiles = HeartbookProfileModule.profilesJSON();
+
     
     $("showAllBtn").click(function(){
         
-        $("showAll").each()(function(){
+        $("allProfiles").each(function(){
             $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
         })
 

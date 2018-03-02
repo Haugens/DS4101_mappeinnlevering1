@@ -48,6 +48,6 @@ const profilesJSON = [{
             "gender": "Female"
         }];
 
-        function showAll(){
-            return profilesJSON
+        return{
+            profilesJSON
         }

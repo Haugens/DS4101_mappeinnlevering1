@@ -9,24 +9,34 @@ $(function(){
     
     $("showAllBtn").click(function(){
         
-        $.each()(function(){
-            
+        $("showAll").each()(function(){
+            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
         })
 
-        $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
     });
 
     $("showAllMenBtn").click(function(){
-        $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+
+        $("showAll").each()(function(){
+            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+        })
+
     });
 
     $("showAllWomenBtn").click(function(){
-        $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+
+        $.each()(function(){
+            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+        })
+
     });
 
     $("iFeelLuckyBtn").click(function(){
-        
-        $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+
+        $.each()(function(){
+            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+        })   
+
     });
 
 })

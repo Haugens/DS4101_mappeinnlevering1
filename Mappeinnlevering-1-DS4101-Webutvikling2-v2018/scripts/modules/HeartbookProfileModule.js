@@ -1,57 +1,49 @@
 const profilesJSON = [{
-            "firstName": "Jonas",
-            "lastName": "Karlsen",
+            "firstName": "Arne",
             "age": "32",
             "imageSrc": "",
             "description": "",
             "gender": "Male"
         }, {
-            "firstName": "Mari",
-            "lastName": "Olsen",
+            "name": "Filip",
             "age": "29",
-            "imageSrc": "",
+            "imageSrc": "filip.jpg",
             "description": "",
             "gender": "Female"
         }, {
-            "firstName": "Birgitte",
-            "lastName": "Jensen",
+            "name": "Elise",
             "age": "32",
-            "imageSrc": "",
+            "imageSrc": "elise.jpg",
             "description": "",
             "gender": "Female"
         }, {
-            "firstName": "Kari",
-            "lastName": "Johansen",
+            "name": "Ina",
             "age": "26",
-            "imageSrc": "",
+            "imageSrc": "ina.jpg",
             "description": "",
             "gender": "Female"
         }, {
-            "firstName": "Lars",
-            "lastName": "Johansson",
+            "name": "Mark",
             "age": "33",
-            "imageSrc": "",
+            "imageSrc": "mark.jpg",
             "description": "",
             "gender": "Male"
         }, {
-            "firstName": "Tore",
-            "lastName": "Halvorsen",
+            "name": "Peter",
             "age": "29",
-            "imageSrc": "",
+            "imageSrc": "peter.jpg",
             "description": "",
             "gender": "Male"
         }, {
-            "firstName": "Jenny",
-            "lastName": "Jensen",
+            "name": "Randi", 
             "age": "34",
-            "imageSrc": "",
+            "imageSrc": "randi.jpg",
             "description": "",
             "gender": "Female"
         }, {
-            "firstName": "Karl",
-            "lastName": "Ivarsen",
+            "name": "Tone",
             "age": "27",
-            "imageSrc": "",
+            "imageSrc": "tone.jpg",
             "description": "",
-            "gender": "Male"
+            "gender": "Female"
         }];

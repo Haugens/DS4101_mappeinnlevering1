@@ -10,7 +10,7 @@ $(function(){
     $("showAllBtn").click(function(){
         
         $.each()(function(){
-
+            
         })
 
         $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);

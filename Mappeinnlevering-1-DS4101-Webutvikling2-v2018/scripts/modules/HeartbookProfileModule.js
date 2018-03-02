@@ -9,7 +9,7 @@ const profilesJSON = [{
             "age": "29",
             "imageSrc": "filip.jpg",
             "description": "",
-            "gender": "Female"
+            "gender": "Male"
         }, {
             "name": "Elise",
             "age": "32",

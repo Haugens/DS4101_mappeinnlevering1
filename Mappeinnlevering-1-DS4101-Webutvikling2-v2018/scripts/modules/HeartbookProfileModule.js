@@ -1,8 +1,8 @@
-const HeartbookProfileModule = (function () {
+const HeartBookProfileModule = (function () {
 
     const profilesJSON = [
         {
-            "firstName": "Arne",
+            "name": "Arne",
             "age": "32",
             "imageSrc": "arne.jpg",
             "description": "",
@@ -59,11 +59,28 @@ const HeartbookProfileModule = (function () {
         }
     ];
 
+    
+    
+    
+    function getAllProfiles() {
+        return allProfiles;
+        
+    }
+    
+    function getAllMen() {
+        
+    }
+    
+    function getAllWomen() {
+        
+    }
+    
+    function getPerson() {
+        
+    }
+    
     return {
         profilesJSON
     }
-    
-    
-    get
 
 }())

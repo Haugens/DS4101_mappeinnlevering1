@@ -1,46 +1,38 @@
 $(function(){
 
-    let profileImg = $("<img>");
+    //let profileImg = $("<img>", {src:`${profile.imageSrc}`});
     let profileName = $("<h1>");
     let profileAge = $("<p>");
     let profileGender = $("<p>");
     let profileInterests = $("<p>");
 
-    let allProfiles = HeartbookProfileModule.profilesJSON();
+    let allProfiles = HeartBookProfileModule.getAllProfiles();
 
     
-    $("showAllBtn").click(function(){
-        
-        $("allProfiles").each(function(){
-            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
+    $("#showAllBtn").click(function(){
+        $(allProfiles).each(function(
+            index, profile
+        ){
+            let profileImg = $("<img>", {src:`${profile.imageSrc}`});            
+            let newName = profileName = profile.name;
+            let newAge = profileAge = profile.age;
+            let newGender = profileGender = profile.gender;
+            let newInterests = profileInterests = profile.interests;
+            
+            $("#profile1").append(profileImg, newName, newAge, newGender, newInterests);
         })
 
     });
 
-    $("showAllMenBtn").click(function(){
-
-        $("showAll").each()(function(){
-            
-            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
-        })
+    $("#showAllMenBtn").click(function(){
 
     });
 
-    $("showAllWomenBtn").click(function(){
-
-        $.each()(function(){
-            
-            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
-        })
+    $("#showAllWomenBtn").click(function(){
 
     });
 
-    $("iFeelLuckyBtn").click(function(){
-
-        $.each()(function(){
-            
-            $("profil").append(profileImg, profileName, profileAge, profileGender, profileInterests);
-        })   
+    $("#iFeelLuckyBtn").click(function(){
 
     });
 

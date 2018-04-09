@@ -4,56 +4,56 @@ const HeartBookProfileModule = (function () {
         {
             "name": "Arne",
             "age": "32",
-            "imageSrc": "arne.jpg",
+            "imageSrc": "images/profiles/arne.jpg",
             "description": "",
             "gender": "Male"
         },
         {
             "name": "Filip",
             "age": "29",
-            "imageSrc": "filip.jpg",
+            "imageSrc": "images/profiles/filip.jpg",
             "description": "",
             "gender": "Male"
         },
         {
             "name": "Elise",
             "age": "32",
-            "imageSrc": "elise.jpg",
+            "imageSrc": "images/profiles/elise.jpg",
             "description": "",
             "gender": "Female"
         },
         {
             "name": "Ina",
             "age": "26",
-            "imageSrc": "ina.jpg",
+            "imageSrc": "images/profiles/ina.jpg",
             "description": "",
             "gender": "Female"
         }, 
         {
             "name": "Mark",
             "age": "33",
-            "imageSrc": "mark.jpg",
+            "imageSrc": "images/profiles/mark.jpg",
             "description": "",
             "gender": "Male"
         }, 
         {
             "name": "Peter",
             "age": "29",
-            "imageSrc": "peter.jpg",
+            "imageSrc": "images/profiles/peter.jpg",
             "description": "",
             "gender": "Male"
         }, 
         {
             "name": "Randi",
             "age": "34",
-            "imageSrc": "randi.jpg",
+            "imageSrc": "images/profiles/randi.jpg",
             "description": "",
             "gender": "Female"
         }, 
         {
             "name": "Tone",
             "age": "27",
-            "imageSrc": "tone.jpg",
+            "imageSrc": "images/profiles/tone.jpg",
             "description": "",
             "gender": "Female"
         }
@@ -63,12 +63,16 @@ const HeartBookProfileModule = (function () {
     
     
     function getAllProfiles() {
-        return allProfiles;
+        return profilesJSON;
         
     }
     
     function getAllMen() {
-        
+        let maleList = [];
+        $.each(function(){
+
+        })
+
     }
     
     function getAllWomen() {
@@ -80,7 +84,7 @@ const HeartBookProfileModule = (function () {
     }
     
     return {
-        profilesJSON
+        getAllProfiles
     }
 
 }())
